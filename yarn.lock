@@ -6820,6 +6820,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+"dom-event-testing-library@file:packages/dom-event-testing-library":
+  version "0.0.0"
+  dependencies:
+    dom-event-testing-library "file:../../AppData/Local/Yarn/Cache/v6/npm-dom-event-testing-library-0.0.0-3e0a08bd-44af-4a6e-8d8f-068239095ba0-1726129650757/node_modules/dom-event-testing-library"
+
 dom-serializer@0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.2.1.tgz#13650c850daffea35d8b626a4cfc4d3a17643fdb"
@@ -7298,6 +7303,11 @@ eslint-plugin-no-unsanitized@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-unsanitized/-/eslint-plugin-no-unsanitized-4.0.2.tgz#e872b302cdfb5fe1262db989ba29cfcc334b499b"
   integrity sha512-Pry0S9YmHoz8NCEMRQh7N0Yexh2MYCNPIlrV52hTmS7qXnTghWsjXouF08bgsrrZqaW9tt1ZiK3j5NEmPE+EjQ==
+
+"eslint-plugin-react-internal@file:scripts/eslint-rules":
+  version "0.0.0"
+  dependencies:
+    eslint-plugin-react-internal "file:../../AppData/Local/Yarn/Cache/v6/npm-eslint-plugin-react-internal-0.0.0-94ba996c-895d-4455-9d11-b588a305eb71-1726129650531/node_modules/eslint-plugin-react-internal"
 
 "eslint-plugin-react-internal@link:./scripts/eslint-rules":
   version "0.0.0"
@@ -9659,6 +9669,11 @@ internal-ip@^6.2.0:
     ipaddr.js "^1.9.1"
     is-ip "^3.1.0"
     p-event "^4.2.0"
+
+"internal-test-utils@file:packages/internal-test-utils":
+  version "0.0.0"
+  dependencies:
+    internal-test-utils "file:../../AppData/Local/Yarn/Cache/v6/npm-internal-test-utils-0.0.0-7a5dbc50-89f1-454f-9384-c47f54d9529f-1726129650754/node_modules/internal-test-utils"
 
 interpret@^1.0.0:
   version "1.2.0"
@@ -13707,6 +13722,45 @@ rc@1.2.8, rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+"react-cache@file:packages/react-cache":
+  version "2.0.0-alpha.0"
+  dependencies:
+    react-cache "file:../../AppData/Local/Yarn/Cache/v6/npm-react-cache-2.0.0-alpha.0-50a345dc-7a91-4fdc-88d3-ae3d64095909-1726129650758/node_modules/react-cache"
+
+"react-client@file:packages/react-client":
+  version "0.1.0"
+  dependencies:
+    react-client "file:../../AppData/Local/Yarn/Cache/v6/npm-react-client-0.1.0-2c90dc19-032a-4401-aeb8-e0058294ca9c-1726129650757/node_modules/react-client"
+
+"react-debug-tools@file:packages/react-debug-tools":
+  version "0.16.0"
+  dependencies:
+    error-stack-parser "^2.1.4"
+    react-debug-tools "file:../../AppData/Local/Yarn/Cache/v6/npm-react-debug-tools-0.16.0-99f3a69f-fd42-4899-83ff-5b660b0a72f3-1726129650758/node_modules/react-debug-tools"
+
+"react-devtools-core@file:packages/react-devtools-core":
+  version "5.3.1"
+  dependencies:
+    react-devtools-core "file:../../AppData/Local/Yarn/Cache/v6/npm-react-devtools-core-5.3.1-1ff59034-2d07-4fcd-a3d2-6930ba8e8113-1726129650758/node_modules/react-devtools-core"
+    shell-quote "^1.6.1"
+    ws "^7"
+
+"react-devtools-fusebox@file:packages/react-devtools-fusebox":
+  version "0.0.0"
+  dependencies:
+    react-devtools-fusebox "file:../../AppData/Local/Yarn/Cache/v6/npm-react-devtools-fusebox-0.0.0-61c07bb3-3712-47da-b5e0-6196e6fadb65-1726129650758/node_modules/react-devtools-fusebox"
+
+"react-devtools@file:packages/react-devtools":
+  version "5.3.1"
+  dependencies:
+    cross-spawn "^5.0.1"
+    electron "^23.1.2"
+    internal-ip "^6.2.0"
+    minimist "^1.2.3"
+    react-devtools "file:../../AppData/Local/Yarn/Cache/v6/npm-react-devtools-5.3.1-717743ef-2921-4263-b665-678468edcb13-1726129650757/node_modules/react-devtools"
+    react-devtools-core "5.3.1"
+    update-notifier "^2.1.0"
+
 "react-dom-15@npm:react-dom@^15":
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
@@ -13736,7 +13790,7 @@ rc@1.2.8, rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-is@^16.8.1, react-is@^17.0.1, react-is@^18.0.0, react-is@^18.2.0, "react-is@npm:react-is":
+react-is@^16.8.1, react-is@^17.0.1, react-is@^18.0.0, react-is@^18.2.0, "react-is@file:packages/react-is", "react-is@npm:react-is":
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
   integrity sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==
@@ -13745,6 +13799,12 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+"react-native-renderer@file:packages/react-native-renderer":
+  version "16.0.0"
+  dependencies:
+    react-native-renderer "file:../../AppData/Local/Yarn/Cache/v6/npm-react-native-renderer-16.0.0-d5d749a5-53a8-4445-bda7-6a4b51d475ab-1726129650755/node_modules/react-native-renderer"
+    scheduler "^0.23.0"
 
 react-native-web@0.0.0-26873b469:
   version "0.0.0-26873b469"
@@ -13761,6 +13821,27 @@ react-native-web@0.0.0-26873b469:
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
+
+"react-refresh@file:packages/react-refresh":
+  version "0.14.0"
+  dependencies:
+    react-refresh "file:../../AppData/Local/Yarn/Cache/v6/npm-react-refresh-0.14.0-108212c5-f90a-4cf3-b715-10e5dc69c19a-1726129650759/node_modules/react-refresh"
+
+"react-server-dom-fb@file:packages/react-server-dom-fb":
+  version "0.1.0"
+  dependencies:
+    react-server-dom-fb "file:../../AppData/Local/Yarn/Cache/v6/npm-react-server-dom-fb-0.1.0-a38f32fd-5986-4bc4-ae18-02ef96b3b60c-1726129650755/node_modules/react-server-dom-fb"
+    scheduler "^0.23.0"
+
+"react-server@file:packages/react-server":
+  version "0.1.0"
+  dependencies:
+    react-server "file:../../AppData/Local/Yarn/Cache/v6/npm-react-server-0.1.0-3a9f1342-6c79-4e2d-9395-1d3556bf0c6b-1726129650759/node_modules/react-server"
+
+"react-suspense-test-utils@file:packages/react-suspense-test-utils":
+  version "0.1.0"
+  dependencies:
+    react-suspense-test-utils "file:../../AppData/Local/Yarn/Cache/v6/npm-react-suspense-test-utils-0.1.0-7c850873-957d-4ecf-bbf8-6382ba5d0afb-1726129650759/node_modules/react-suspense-test-utils"
 
 react-timer-mixin@^0.13.4:
   version "0.13.4"
@@ -13788,6 +13869,11 @@ react@^16.13.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
+
+"react@file:packages/react":
+  version "19.0.0"
+  dependencies:
+    react "file:../../AppData/Local/Yarn/Cache/v6/npm-react-19.0.0-8f3a839f-3649-4ffb-a1e7-b9fbe2ee2984-1726129650759/node_modules/react"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -14415,6 +14501,11 @@ scheduler@^0.20.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+"scheduler@file:packages/scheduler":
+  version "0.23.0"
+  dependencies:
+    scheduler "file:../../AppData/Local/Yarn/Cache/v6/npm-scheduler-0.23.0-3a0a6bae-e575-4b81-b8d1-1ff959abab8a-1726129650760/node_modules/scheduler"
+
 schema-utils@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
@@ -14695,6 +14786,11 @@ shallow-copy@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/shallow-copy/-/shallow-copy-0.0.1.tgz#415f42702d73d810330292cc5ee86eae1a11a170"
   integrity sha1-QV9CcC1z2BAzApLMXuhurhoRoXA=
+
+"shared@file:packages/shared":
+  version "0.0.0"
+  dependencies:
+    shared "file:../../AppData/Local/Yarn/Cache/v6/npm-shared-0.0.0-615a3425-adf8-4f7c-a406-7c46a7294500-1726129650755/node_modules/shared"
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -16255,6 +16351,17 @@ url@~0.10.1:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+"use-subscription@file:packages/use-subscription":
+  version "1.8.0"
+  dependencies:
+    use-subscription "file:../../AppData/Local/Yarn/Cache/v6/npm-use-subscription-1.8.0-aa420485-fa25-4f9d-ad14-fb95eacce30e-1726129650760/node_modules/use-subscription"
+    use-sync-external-store "^1.2.0"
+
+"use-sync-external-store@file:packages/use-sync-external-store":
+  version "1.2.0"
+  dependencies:
+    use-sync-external-store "file:../../AppData/Local/Yarn/Cache/v6/npm-use-sync-external-store-1.2.0-b7bead65-f322-470a-a295-bd4a7bd02b6d-1726129650760/node_modules/use-sync-external-store"
 
 use@^3.1.0:
   version "3.1.1"

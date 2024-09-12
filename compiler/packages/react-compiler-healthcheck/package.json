@@ -15,11 +15,11 @@
     "chalk": "4",
     "fast-glob": "^3.3.2",
     "ora": "5.4.1",
+    "react-compiler-healthcheck": "file:",
     "yargs": "^17.7.2",
     "zod": "^3.22.4",
     "zod-validation-error": "^3.0.3"
   },
-  "devDependencies": {},
   "engines": {
     "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
   },

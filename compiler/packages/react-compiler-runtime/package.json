@@ -19,5 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/facebook/react.git",
     "directory": "compiler/packages/react-compiler-runtime"
+  },
+  "dependencies": {
+    "react-compiler-runtime": "file:"
   }
 }

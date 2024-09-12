@@ -8,5 +8,8 @@
   "scripts": {
     "build": "rm -rf public && brunch build -p",
     "prebuild": "cp -r ../../../../build/oss-experimental/* ./node_modules/"
+  },
+  "dependencies": {
+    "brunch-prod-fixture": "file:"
   }
 }

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "invariant": "^2.2.4",
+    "make-read-only-util": "file:",
     "pretty-format": "^24"
   },
   "devDependencies": {
