@@ -7,9 +7,9 @@
  * @flow
  */
 
-import type {ReactNativeType} from './src/ReactNativeTypes';
+//import type {ReactNativeType} from './src/ReactNativeTypes';
 import * as ReactNative from './src/ReactNativeRenderer';
 // Assert that the exports line up with the type we're going to expose.
-(ReactNative: ReactNativeType);
+//(ReactNative: ReactNativeType);
 
-export * from './src/ReactNativeRenderer';
+export default ReactNative;
